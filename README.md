@@ -6,7 +6,7 @@ Marketing website for **Route 66 Cleaning Co.** — professional cleaning servic
 
 ## Overview
 
-A fast, fully static, mobile-first website built with HTML + [Tailwind CSS](https://tailwindcss.com) (CDN). The design follows the brand logo's desert-sunset palette — deep night black with gold → ember → flame gradients.
+A fast, fully static, mobile-first website built with HTML + [Tailwind CSS](https://tailwindcss.com) (CDN). A clean light theme carries the logo's desert-sunset accents — gold → ember → flame gradients on white and warm linen, anchored by a dark footer.
 
 ## Pages
 
@@ -23,7 +23,7 @@ A fast, fully static, mobile-first website built with HTML + [Tailwind CSS](http
 ## Features
 
 - 📱 Fully responsive / mobile optimized with a clean nav bar + mobile menu
-- 🎨 Brand colors matched to the logo (gold `#FDB42D`, ember `#F7861F`, flame `#E8431F` on night `#0b0a09`)
+- 🎨 Brand colors matched to the logo — gold `#FDB42D`, ember `#F7861F`, flame `#E8431F` over white `#ffffff` / linen `#faf6f1`, with ink `#1a1410` text and footer
 - 🔎 SEO: unique titles, meta descriptions, keywords, canonical URLs, Open Graph + Twitter cards, JSON-LD `CleaningService` schema
 - 🧭 `sitemap.xml` + `robots.txt`
 - 🖼️ Favicon set (32px, 256px), Apple touch icon, 512px PWA icon + `site.webmanifest`

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta name="theme-color" content="#0b0a09"/>
+<meta name="theme-color" content="#ffffff"/>
 <title>Deep Cleaning in Kingman, AZ | Route 66 Cleaning Co.</title>
 <meta name="description" content="Detailed top-to-bottom deep cleaning in Kingman, AZ. We target buildup, baseboards, fixtures and overlooked surfaces. Book your free quote with Route 66 Cleaning Co."/>
 <meta name="keywords" content="deep cleaning Kingman AZ, deep clean service Arizona, detailed house cleaning Kingman"/>
@@ -27,7 +27,7 @@
 <script src="https://cdn.tailwindcss.com?plugins=forms"></script>
 <script>
   tailwind.config = { theme: { extend: {
-    colors: { night:"#0b0a09", char:"#15110d", panel:"#1c1712", gold:"#FDB42D", ember:"#F7861F", flame:"#E8431F", sand:"#f4ece1" },
+    colors: { cream:"#ffffff", linen:"#faf6f1", panel:"#ffffff", gold:"#FDB42D", ember:"#F7861F", flame:"#E8431F", ink:"#1a1410" },
     fontFamily: { display:["Anton","sans-serif"], head:["Oswald","sans-serif"], sans:["Inter","sans-serif"] },
   } } }
 </script>
@@ -37,73 +37,80 @@
   .nav-dropdown { opacity:0; visibility:hidden; transform:translateY(6px); transition:all .18s ease; }
   .nav-trigger:hover .nav-dropdown { opacity:1; visibility:visible; transform:translateY(0); }
   .sunset-text { background:linear-gradient(90deg,#FDB42D,#F7861F 45%,#E8431F); -webkit-background-clip:text; background-clip:text; color:transparent; }
+  .page-overlay { background:
+      radial-gradient(900px 380px at 50% -10%, rgba(247,134,31,.20), transparent 60%),
+      linear-gradient(180deg, rgba(255,255,255,.78), rgba(255,255,255,.92) 72%, #ffffff); }
 </style>
 </head>
-<body class="bg-night font-sans text-sand antialiased selection:bg-ember/40">
+<body class="bg-cream font-sans text-ink antialiased selection:bg-ember/30">
 
-<header class="sticky top-0 z-50 border-b border-white/5 bg-night/80 backdrop-blur-md">
+<header class="sticky top-0 z-50 border-b border-stone-200 bg-cream/90 backdrop-blur-md">
   <div class="mx-auto flex max-w-7xl items-center justify-between px-5 md:px-10 py-3">
-    <a href="index.html" class="flex items-center gap-3"><img src="assets/logo.png" alt="Route 66 Cleaning Co. logo" class="h-11 w-auto md:h-12"/></a>
+    <a href="index.html" class="flex items-center">
+      <span class="inline-flex items-center rounded-xl bg-ink px-3 py-2">
+        <img src="assets/logo-mark.png" alt="Route 66 Cleaning Co. logo" class="h-8 w-auto md:h-9"/>
+      </span>
+    </a>
     <nav class="hidden md:flex items-center gap-9 font-head uppercase tracking-widest text-xs">
-      <a class="text-sand hover:text-ember transition-colors" href="index.html">Home</a>
+      <a class="text-ink hover:text-ember transition-colors" href="index.html">Home</a>
       <div class="nav-trigger relative">
         <button class="flex items-center gap-1 text-ember uppercase tracking-widest">Services <span class="material-symbols-outlined text-base">expand_more</span></button>
         <div class="nav-dropdown absolute left-1/2 -translate-x-1/2 top-full pt-3 w-60">
-          <div class="rounded-xl border border-white/10 bg-char shadow-2xl overflow-hidden">
-            <a class="block px-5 py-3 text-slate-300 hover:bg-ember/10 hover:text-ember transition-colors" href="residential.html">Residential Cleaning</a>
+          <div class="rounded-xl border border-stone-200 bg-white shadow-xl overflow-hidden">
+            <a class="block px-5 py-3 text-stone-600 hover:bg-ember/10 hover:text-ember transition-colors" href="residential.html">Residential Cleaning</a>
             <a class="block px-5 py-3 text-ember bg-ember/10" href="deep-cleaning.html">Deep Cleaning</a>
-            <a class="block px-5 py-3 text-slate-300 hover:bg-ember/10 hover:text-ember transition-colors" href="recurring.html">Recurring Cleaning</a>
-            <a class="block px-5 py-3 text-slate-300 hover:bg-ember/10 hover:text-ember transition-colors" href="move-in-out.html">Move-In / Move-Out</a>
-            <a class="block px-5 py-3 text-slate-300 hover:bg-ember/10 hover:text-ember transition-colors" href="commercial.html">Commercial Cleaning</a>
-            <a class="block px-5 py-3 text-slate-300 hover:bg-ember/10 hover:text-ember transition-colors" href="airbnb.html">Vacation Rental / Airbnb</a>
+            <a class="block px-5 py-3 text-stone-600 hover:bg-ember/10 hover:text-ember transition-colors" href="recurring.html">Recurring Cleaning</a>
+            <a class="block px-5 py-3 text-stone-600 hover:bg-ember/10 hover:text-ember transition-colors" href="move-in-out.html">Move-In / Move-Out</a>
+            <a class="block px-5 py-3 text-stone-600 hover:bg-ember/10 hover:text-ember transition-colors" href="commercial.html">Commercial Cleaning</a>
+            <a class="block px-5 py-3 text-stone-600 hover:bg-ember/10 hover:text-ember transition-colors" href="airbnb.html">Vacation Rental / Airbnb</a>
           </div>
         </div>
       </div>
-      <a class="text-sand hover:text-ember transition-colors" href="index.html#about">About</a>
-      <a class="text-sand hover:text-ember transition-colors" href="index.html#areas">Service Areas</a>
-      <a class="text-sand hover:text-ember transition-colors" href="index.html#contact">Contact</a>
+      <a class="text-ink hover:text-ember transition-colors" href="index.html#about">About</a>
+      <a class="text-ink hover:text-ember transition-colors" href="index.html#areas">Service Areas</a>
+      <a class="text-ink hover:text-ember transition-colors" href="index.html#contact">Contact</a>
     </nav>
     <div class="flex items-center gap-3">
-      <a href="index.html#contact" class="hidden sm:inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-ember to-flame px-6 py-2.5 font-head text-xs uppercase tracking-widest text-night font-semibold hover:opacity-90 transition">Free Quote</a>
-      <button id="menu-btn" class="md:hidden p-2 text-sand" aria-label="Open menu"><span class="material-symbols-outlined">menu</span></button>
+      <a href="index.html#contact" class="hidden sm:inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-gold via-ember to-flame px-6 py-2.5 font-head text-xs uppercase tracking-widest text-ink font-semibold hover:opacity-90 transition shadow-sm">Free Quote</a>
+      <button id="menu-btn" class="md:hidden p-2 text-ink" aria-label="Open menu"><span class="material-symbols-outlined">menu</span></button>
     </div>
   </div>
-  <div id="mobile-menu" class="md:hidden hidden border-t border-white/5 bg-char px-5 py-4">
+  <div id="mobile-menu" class="md:hidden hidden border-t border-stone-200 bg-white px-5 py-4">
     <nav class="flex flex-col gap-1 font-head uppercase tracking-widest text-sm">
-      <a class="py-2 text-sand" href="index.html">Home</a>
+      <a class="py-2 text-ink" href="index.html">Home</a>
       <span class="pt-2 text-[11px] text-ember">Services</span>
-      <a class="py-2 pl-3 text-slate-300" href="residential.html">Residential Cleaning</a>
+      <a class="py-2 pl-3 text-stone-600" href="residential.html">Residential Cleaning</a>
       <a class="py-2 pl-3 text-ember" href="deep-cleaning.html">Deep Cleaning</a>
-      <a class="py-2 pl-3 text-slate-300" href="recurring.html">Recurring Cleaning</a>
-      <a class="py-2 pl-3 text-slate-300" href="move-in-out.html">Move-In / Move-Out</a>
-      <a class="py-2 pl-3 text-slate-300" href="commercial.html">Commercial Cleaning</a>
-      <a class="py-2 pl-3 text-slate-300" href="airbnb.html">Vacation Rental / Airbnb</a>
-      <a class="py-2 text-sand" href="index.html#about">About</a>
-      <a class="py-2 text-sand" href="index.html#areas">Service Areas</a>
-      <a class="py-2 text-sand" href="index.html#contact">Contact</a>
+      <a class="py-2 pl-3 text-stone-600" href="recurring.html">Recurring Cleaning</a>
+      <a class="py-2 pl-3 text-stone-600" href="move-in-out.html">Move-In / Move-Out</a>
+      <a class="py-2 pl-3 text-stone-600" href="commercial.html">Commercial Cleaning</a>
+      <a class="py-2 pl-3 text-stone-600" href="airbnb.html">Vacation Rental / Airbnb</a>
+      <a class="py-2 text-ink" href="index.html#about">About</a>
+      <a class="py-2 text-ink" href="index.html#areas">Service Areas</a>
+      <a class="py-2 text-ink" href="index.html#contact">Contact</a>
     </nav>
   </div>
 </header>
 
 <main>
 <section class="relative overflow-hidden">
-  <img src="https://images.unsplash.com/photo-1620626011761-996317b8d101?w=1600&h=700&fit=crop" alt="Deep cleaning service" class="absolute inset-0 h-full w-full object-cover"/>
-  <div class="absolute inset-0" style="background:linear-gradient(180deg,rgba(11,10,9,.6),rgba(11,10,9,.92) 75%,#0b0a09)"></div>
+  <img src="https://images.unsplash.com/photo-1620626011761-996317b8d101?w=1600&h=700&fit=crop" alt="Pristine white bathroom after a deep clean" class="absolute inset-0 h-full w-full object-cover"/>
+  <div class="page-overlay absolute inset-0"></div>
   <div class="relative mx-auto max-w-5xl px-5 md:px-10 py-24 md:py-32 text-center">
-    <nav class="font-head uppercase tracking-widest text-[11px] text-slate-400 mb-5"><a href="index.html" class="hover:text-ember">Home</a> / <span class="text-ember">Deep Cleaning</span></nav>
-    <h1 class="font-display uppercase text-5xl md:text-7xl leading-[0.95]"><span class="text-sand">Deep</span> <span class="sunset-text">Cleaning</span></h1>
-    <p class="mx-auto mt-6 max-w-2xl text-slate-300 text-lg leading-relaxed">A detailed, top-to-bottom reset that tackles the buildup everyday cleaning leaves behind.</p>
+    <nav class="font-head uppercase tracking-widest text-[11px] text-stone-500 mb-5"><a href="index.html" class="hover:text-ember">Home</a> / <span class="text-ember">Deep Cleaning</span></nav>
+    <h1 class="font-display uppercase text-5xl md:text-7xl leading-[0.95]"><span class="text-ink">Deep</span> <span class="sunset-text">Cleaning</span></h1>
+    <p class="mx-auto mt-6 max-w-2xl text-stone-600 text-lg leading-relaxed">A detailed, top-to-bottom reset that tackles the buildup everyday cleaning leaves behind.</p>
   </div>
 </section>
 
-<section class="py-20 md:py-28 px-5 md:px-10">
+<section class="py-20 md:py-28 px-5 md:px-10 bg-cream">
   <div class="mx-auto max-w-6xl grid lg:grid-cols-2 gap-14 items-start">
     <div>
       <span class="font-head uppercase tracking-[0.3em] text-xs text-ember">Overview</span>
-      <h2 class="mt-3 font-display uppercase text-3xl md:text-5xl text-sand">A True Top-To-Bottom Clean</h2>
-      <p class="mt-6 text-slate-300 leading-relaxed">Our deep clean goes well beyond the surface. We target hard-to-reach areas, baseboards, fixtures, grout, vents and the commonly overlooked spots that collect dust and grime over time — leaving your whole space feeling brand new.</p>
-      <p class="mt-4 text-slate-400 leading-relaxed">It's the perfect first visit before starting a recurring plan, a seasonal refresh, or a reset after a busy stretch. We bring the elbow grease so you don't have to.</p>
-      <ul class="mt-8 grid sm:grid-cols-2 gap-3 text-sm text-slate-300">
+      <h2 class="mt-3 font-display uppercase text-3xl md:text-5xl text-ink">A True Top-To-Bottom Clean</h2>
+      <p class="mt-6 text-stone-600 leading-relaxed">Our deep clean goes well beyond the surface. We target hard-to-reach areas, baseboards, fixtures, grout, vents and the commonly overlooked spots that collect dust and grime over time — leaving your whole space feeling brand new.</p>
+      <p class="mt-4 text-stone-500 leading-relaxed">It's the perfect first visit before starting a recurring plan, a seasonal refresh, or a reset after a busy stretch. We bring the elbow grease so you don't have to.</p>
+      <ul class="mt-8 grid sm:grid-cols-2 gap-3 text-sm text-stone-600">
         <li class="flex items-center gap-3"><span class="material-symbols-outlined text-ember text-lg">check_circle</span>Baseboards &amp; door frames</li>
         <li class="flex items-center gap-3"><span class="material-symbols-outlined text-ember text-lg">check_circle</span>Grout &amp; tile detailing</li>
         <li class="flex items-center gap-3"><span class="material-symbols-outlined text-ember text-lg">check_circle</span>Light fixtures &amp; vents</li>
@@ -113,55 +120,55 @@
       </ul>
     </div>
     <div class="grid grid-cols-2 gap-4">
-      <img src="https://images.unsplash.com/photo-1620626011761-996317b8d101?w=600&h=450&fit=crop" alt="Deep cleaning bathroom" class="rounded-2xl border border-white/10 object-cover w-full aspect-[4/3]"/>
-      <img src="https://images.unsplash.com/photo-1563453392212-326f5e854473?w=600&h=450&fit=crop" alt="Cleaning spray in a gloved hand" class="rounded-2xl border border-white/10 object-cover w-full aspect-[4/3]"/>
-      <img src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=1200&h=500&fit=crop" alt="Spotless detailed home" class="col-span-2 rounded-2xl border border-white/10 object-cover w-full aspect-[12/5]"/>
+      <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=600&h=450&fit=crop" alt="Sparkling bathroom with glass shower" class="rounded-2xl border border-stone-200 object-cover w-full aspect-[4/3] shadow-sm"/>
+      <img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=600&h=450&fit=crop" alt="Detailed, streak-free bathroom finish" class="rounded-2xl border border-stone-200 object-cover w-full aspect-[4/3] shadow-sm"/>
+      <img src="https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1200&h=500&fit=crop" alt="Deep cleaned kitchen with spotless appliances" class="col-span-2 rounded-2xl border border-stone-200 object-cover w-full aspect-[12/5] shadow-sm"/>
     </div>
   </div>
 </section>
 
-<section class="py-16 md:py-24 px-5 md:px-10 bg-char border-y border-white/5">
+<section class="py-16 md:py-24 px-5 md:px-10 bg-linen border-y border-stone-200">
   <div class="mx-auto max-w-7xl">
-    <h2 class="text-center font-display uppercase text-3xl md:text-5xl text-sand mb-12">What's <span class="sunset-text">Included</span></h2>
+    <h2 class="text-center font-display uppercase text-3xl md:text-5xl text-ink mb-12">What's <span class="sunset-text">Included</span></h2>
     <div class="grid gap-7 sm:grid-cols-2 lg:grid-cols-4">
-      <div class="rounded-2xl border border-white/10 bg-panel p-7"><span class="material-symbols-outlined text-ember text-3xl">target</span><h3 class="mt-4 font-head uppercase text-lg">The Overlooked Spots</h3><p class="mt-2 text-sm text-slate-400">We clean the areas routine visits skip.</p></div>
-      <div class="rounded-2xl border border-white/10 bg-panel p-7"><span class="material-symbols-outlined text-ember text-3xl">auto_awesome</span><h3 class="mt-4 font-head uppercase text-lg">Like-New Finish</h3><p class="mt-2 text-sm text-slate-400">Buildup, grime and hard water tackled head-on.</p></div>
-      <div class="rounded-2xl border border-white/10 bg-panel p-7"><span class="material-symbols-outlined text-ember text-3xl">verified_user</span><h3 class="mt-4 font-head uppercase text-lg">Trusted Crews</h3><p class="mt-2 text-sm text-slate-400">Background-checked, insured professionals.</p></div>
-      <div class="rounded-2xl border border-white/10 bg-panel p-7"><span class="material-symbols-outlined text-ember text-3xl">thumb_up</span><h3 class="mt-4 font-head uppercase text-lg">Satisfaction Guaranteed</h3><p class="mt-2 text-sm text-slate-400">Not happy? We'll come back and make it right.</p></div>
+      <div class="rounded-2xl border border-stone-200 bg-white p-7 shadow-sm"><span class="material-symbols-outlined text-ember text-3xl">target</span><h3 class="mt-4 font-head uppercase text-lg">The Overlooked Spots</h3><p class="mt-2 text-sm text-stone-500">We clean the areas routine visits skip.</p></div>
+      <div class="rounded-2xl border border-stone-200 bg-white p-7 shadow-sm"><span class="material-symbols-outlined text-ember text-3xl">auto_awesome</span><h3 class="mt-4 font-head uppercase text-lg">Like-New Finish</h3><p class="mt-2 text-sm text-stone-500">Buildup, grime and hard water tackled head-on.</p></div>
+      <div class="rounded-2xl border border-stone-200 bg-white p-7 shadow-sm"><span class="material-symbols-outlined text-ember text-3xl">verified_user</span><h3 class="mt-4 font-head uppercase text-lg">Trusted Crews</h3><p class="mt-2 text-sm text-stone-500">Background-checked, insured professionals.</p></div>
+      <div class="rounded-2xl border border-stone-200 bg-white p-7 shadow-sm"><span class="material-symbols-outlined text-ember text-3xl">thumb_up</span><h3 class="mt-4 font-head uppercase text-lg">Satisfaction Guaranteed</h3><p class="mt-2 text-sm text-stone-500">Not happy? We'll come back and make it right.</p></div>
     </div>
   </div>
 </section>
 
-<section class="py-20 md:py-28 px-5 md:px-10 text-center">
+<section class="py-20 md:py-28 px-5 md:px-10 text-center bg-cream">
   <div class="mx-auto max-w-3xl">
-    <h2 class="font-display uppercase text-4xl md:text-6xl text-sand">Time For A <span class="sunset-text">Fresh Reset?</span></h2>
-    <p class="mt-5 text-slate-400">Request a free, no-pressure quote and we'll take it from there.</p>
-    <a href="index.html#contact" class="mt-8 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-gold via-ember to-flame px-10 py-4 font-head uppercase tracking-widest text-sm text-night font-semibold hover:opacity-90 transition">Get a Free Quote <span class="material-symbols-outlined text-base">arrow_forward</span></a>
+    <h2 class="font-display uppercase text-4xl md:text-6xl text-ink">Time For A <span class="sunset-text">Fresh Reset?</span></h2>
+    <p class="mt-5 text-stone-500">Request a free, no-pressure quote and we'll take it from there.</p>
+    <a href="index.html#contact" class="mt-8 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-gold via-ember to-flame px-10 py-4 font-head uppercase tracking-widest text-sm text-ink font-semibold hover:opacity-90 transition shadow-sm">Get a Free Quote <span class="material-symbols-outlined text-base">arrow_forward</span></a>
   </div>
 </section>
 </main>
 
-<footer class="bg-night px-5 md:px-10 pt-16 pb-10 border-t border-white/5">
+<footer class="bg-ink px-5 md:px-10 pt-16 pb-10">
   <div class="mx-auto max-w-7xl grid gap-12 md:grid-cols-4">
-    <div class="md:col-span-2"><img src="assets/logo.png" alt="Route 66 Cleaning Co. logo" class="h-14 w-auto"/><p class="mt-5 max-w-sm text-sm text-slate-400 leading-relaxed">Professional, reliable cleaning for homes and businesses across Kingman, AZ and the surrounding high desert. Clean that goes the extra mile.</p></div>
-    <div><h5 class="font-head uppercase tracking-widest text-xs text-sand mb-5">Services</h5><ul class="space-y-3 text-sm">
-      <li><a class="text-slate-400 hover:text-ember transition" href="residential.html">Residential Cleaning</a></li>
-      <li><a class="text-slate-400 hover:text-ember transition" href="deep-cleaning.html">Deep Cleaning</a></li>
-      <li><a class="text-slate-400 hover:text-ember transition" href="recurring.html">Recurring Cleaning</a></li>
-      <li><a class="text-slate-400 hover:text-ember transition" href="move-in-out.html">Move-In / Move-Out</a></li>
-      <li><a class="text-slate-400 hover:text-ember transition" href="commercial.html">Commercial Cleaning</a></li>
-      <li><a class="text-slate-400 hover:text-ember transition" href="airbnb.html">Vacation Rental / Airbnb</a></li>
+    <div class="md:col-span-2"><img src="assets/logo-mark.png" alt="Route 66 Cleaning Co. logo" class="h-12 w-auto"/><p class="mt-5 max-w-sm text-sm text-stone-400 leading-relaxed">Professional, reliable cleaning for homes and businesses across Kingman, AZ and the surrounding high desert. Clean that goes the extra mile.</p></div>
+    <div><h5 class="font-head uppercase tracking-widest text-xs text-white mb-5">Services</h5><ul class="space-y-3 text-sm">
+      <li><a class="text-stone-400 hover:text-ember transition" href="residential.html">Residential Cleaning</a></li>
+      <li><a class="text-stone-400 hover:text-ember transition" href="deep-cleaning.html">Deep Cleaning</a></li>
+      <li><a class="text-stone-400 hover:text-ember transition" href="recurring.html">Recurring Cleaning</a></li>
+      <li><a class="text-stone-400 hover:text-ember transition" href="move-in-out.html">Move-In / Move-Out</a></li>
+      <li><a class="text-stone-400 hover:text-ember transition" href="commercial.html">Commercial Cleaning</a></li>
+      <li><a class="text-stone-400 hover:text-ember transition" href="airbnb.html">Vacation Rental / Airbnb</a></li>
     </ul></div>
-    <div><h5 class="font-head uppercase tracking-widest text-xs text-sand mb-5">Contact</h5><ul class="space-y-3 text-sm">
-      <li><a class="text-slate-400 hover:text-ember transition" href="index.html#contact">Free Quote</a></li>
-      <li><a class="text-slate-400 hover:text-ember transition" href="mailto:info@route66cleaningco.com">info@route66cleaningco.com</a></li>
-      <li><a class="text-slate-400 hover:text-ember transition" href="index.html#areas">Service Areas</a></li>
-      <li class="text-slate-400">Kingman, AZ</li>
+    <div><h5 class="font-head uppercase tracking-widest text-xs text-white mb-5">Contact</h5><ul class="space-y-3 text-sm">
+      <li><a class="text-stone-400 hover:text-ember transition" href="index.html#contact">Free Quote</a></li>
+      <li><a class="text-stone-400 hover:text-ember transition" href="mailto:info@route66cleaningco.com">info@route66cleaningco.com</a></li>
+      <li><a class="text-stone-400 hover:text-ember transition" href="index.html#areas">Service Areas</a></li>
+      <li class="text-stone-400">Kingman, AZ</li>
     </ul></div>
   </div>
-  <div class="mx-auto max-w-7xl mt-12 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
-    <p class="text-xs uppercase tracking-widest text-slate-500">© <span id="year"></span> Route 66 Cleaning Co. All rights reserved.</p>
-    <p class="text-xs uppercase tracking-widest text-slate-600">Kingman, Arizona</p>
+  <div class="mx-auto max-w-7xl mt-12 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
+    <p class="text-xs uppercase tracking-widest text-stone-500">© <span id="year"></span> Route 66 Cleaning Co. All rights reserved.</p>
+    <p class="text-xs uppercase tracking-widest text-stone-600">Kingman, Arizona</p>
   </div>
 </footer>
 <script>
