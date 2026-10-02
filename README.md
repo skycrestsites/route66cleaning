@@ -10,21 +10,24 @@ A fast, fully static, mobile-first website built with HTML + [Tailwind CSS](http
 
 ## Pages
 
-| Page | File |
-| --- | --- |
-| Home | `index.html` |
-| Residential Cleaning | `residential.html` |
-| Deep Cleaning | `deep-cleaning.html` |
-| Recurring Cleaning | `recurring.html` |
-| Move-In / Move-Out | `move-in-out.html` |
-| Commercial Cleaning | `commercial.html` |
-| Vacation Rental / Airbnb | `airbnb.html` |
+Each page lives in its own folder as an `index.html`, so it is served at a clean, extensionless URL on any static host.
+
+| Page | URL | File |
+| --- | --- | --- |
+| Home | `/` | `index.html` |
+| Residential Cleaning | `/residential-cleaning/` | `residential-cleaning/index.html` |
+| Deep Cleaning | `/deep-cleaning/` | `deep-cleaning/index.html` |
+| Recurring Cleaning | `/recurring-cleaning/` | `recurring-cleaning/index.html` |
+| Move-In / Move-Out | `/move-in-out-cleaning/` | `move-in-out-cleaning/index.html` |
+| Commercial Cleaning | `/commercial-cleaning/` | `commercial-cleaning/index.html` |
+| Vacation Rental / Airbnb | `/airbnb-cleaning/` | `airbnb-cleaning/index.html` |
 
 ## Features
 
 - 📱 Fully responsive / mobile optimized with a clean nav bar + mobile menu
 - 🎨 Brand colors matched to the logo: gold `#FDB42D`, ember `#F7861F`, flame `#E8431F` over white `#ffffff` / linen `#faf6f1`, with ink `#1a1410` text
 - 🔎 SEO: unique titles, meta descriptions, keywords, canonical URLs, Open Graph + Twitter cards, JSON-LD `CleaningService` schema
+- 🔗 Clean, extensionless URLs (`/deep-cleaning/`) with no `.html` anywhere in the site
 - 🧭 `sitemap.xml` + `robots.txt`
 - 🖼️ Favicon set (32px, 256px), Apple touch icon, 512px PWA icon + `site.webmanifest`
 - ⚡ Scroll-reveal animations and hover states
@@ -38,7 +41,7 @@ A fast, fully static, mobile-first website built with HTML + [Tailwind CSS](http
 
 ## Local preview
 
-Just open `index.html` in a browser, or serve the folder:
+Serve the folder rather than opening the files directly, so the directory-based URLs resolve:
 
 ```bash
 npx serve .
