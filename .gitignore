@@ -1,0 +1,9 @@
+# Template reference (its own repo) — not part of the website
+style 3/
+
+# Source material / contains private client data
+Fillout Cleaning - Website Questionnaire results 2.csv
+
+# OS files
+.DS_Store
+Thumbs.db
